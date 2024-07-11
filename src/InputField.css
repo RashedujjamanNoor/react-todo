@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 5px ;
+    font-weight: bolder;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.inputBox{
+    border-radius: 50px;
+    padding: 7px;
+    border: none;
+    
+}
+
+.todo{
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(4, 255, 255);
+}
